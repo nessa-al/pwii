@@ -70,7 +70,73 @@
    
 
 <div class="container">   
-    <h1>Página inicial do site</h1>
+    <h1>Array</h1>
+    <p> As variaveis do tipo arrei são muito utilizadas quando vamos listar coisas.
+        os arrays em php são listas de qualquer tipo de dados.
+    </p>
+    <pre>
+
+        $array = [];
+        $array = ();
+        $array[0] = "OI";
+        $array[2] = 10;
+        $array ["Vanessa"] = "Aluna";
+        $array [$array[2]] = "teste";  
+    </pre>
+    <?php 
+        $array = Array("Oi", 10, "Prof", "teste", 1.99, true);
+        echo "<h2> Como saber se deu certo? </h2>";
+        var_dump($array);
+
+        echo "<pre>";
+        print_r($array);
+        echo "</pre>";
+      
+        echo "<pre>";
+        var_dump($array);
+        echo "</pre>";
+        for($i = 0; $i < count($array); $i++)
+        {
+            echo " $array[$i]  <br>";
+        }
+    
+    ?>
+    <p> Existem diversas formas de criar uma variavel array  </p>
+    <pre>
+        array(
+            chave => valor,
+            chave => valor2,
+            chave => valor3,
+            ...
+        )
+        </pre>
+        <P> </p>
+        <?php 
+        $array = array(
+            "foo" => "bar",
+            "bar" => "foo,",    
+        );
+
+        // Utilizando a sintaxe curta
+        $array = [
+            "foo" => "bar",
+            "bar" => "foo",
+        ];
+        echo "<pre>";
+        print_r($array);
+        echo"</pre>";
+        
+        $resultados =[
+            "Id": 1,
+            "Nome" : "Vanessa",
+            "Idade" : 
+        ]
+        
+        ?>
+
+
+
+
 </div>
     <script src="bootstrap.bundle.min.js"></script>
 </body>

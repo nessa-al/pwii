@@ -87,7 +87,7 @@ if ($idade <=12) {
     }
     ?>
 
-    <h2> Exercicio 9 </h2>
+    <h2> Exercicio 8 </h2>
     <?php 
     $ano = 2024;
     if ($ano % 400 == 0){
@@ -100,7 +100,7 @@ if ($idade <=12) {
         echo "$ano Não é um ano bissexto. ";
     }
     ?>
-    <h2> Exercicio 10 </h2>
+    <h2> Exercicio 9 </h2>
     <?php 
     $senha = "senha123";
     $comprimento_minimo = 10;
