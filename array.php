@@ -59,6 +59,11 @@
                array
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="exerciciosArray.php">
+               exercicio array
+            </a>
+        </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -71,7 +76,7 @@
 
 <div class="container">   
     <h1>Array</h1>
-    <p> As variaveis do tipo arrei são muito utilizadas quando vamos listar coisas.
+    <p> As variaveis do tipo array são muito utilizadas quando vamos listar coisas.
         os arrays em php são listas de qualquer tipo de dados.
     </p>
     <pre>
@@ -126,11 +131,7 @@
         print_r($array);
         echo"</pre>";
         
-        $resultados =[
-            "Id": 1,
-            "Nome" : "Vanessa",
-            "Idade" : 
-        ]
+      
         
         ?>
 

@@ -99,7 +99,7 @@ $pessoas = array(
      echo "<tr>";
      echo "<td>".$a["nome"]."</td>";
      echo "<td>".$a["idade"]."</td>";
-     echo "<td>".$a["email"]."</td>";
+     echo "<td>".$a[$i]["email"]."</td>";
      echo "</tr>";
      }
 
