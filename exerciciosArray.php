@@ -1,3 +1,5 @@
+<?php include "cabecalho.php";?>
+
 <?php  //          1        2         3
 $frutas = array("maça", "banana", "laranja") ;
 print_r ($frutas); // Escreve na tela os dados basicos do array.
@@ -107,3 +109,4 @@ $pessoas = array(
 
 
 ?>
+<?php include "rodape.php"; ?>
