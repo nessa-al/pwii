@@ -8,13 +8,13 @@ $sorteio = array("JONAS SILVA JATOBA", "MARCOS VINÍCIUS SANCHES CARDOSO","MARIA
 
 
 $contagem = count($sorteio);
-$sorteioaleatorio =rand(0, $contagem -1);
+$sorteioaleatorio = rand(0, $contagem -1);
 $vencedor = $sorteio [$sorteioaleatorio];
 ?>
 
 <?php
-echo "<h1>";
-echo "O VENCEDOR É:  ". $vencedor;
+echo "<h1> <br>"; 
+echo "O VENCEDOR É:  " . $vencedor;
 echo"</h1>"; 
 ?>
 
