@@ -37,6 +37,11 @@
                 If
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="recuperacao.php">
+                rec.
+            </a>
+        </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,6 +72,16 @@
         <li class="nav-item">
             <a class="nav-link" href="sorteio.php">
                sorteio
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="novo_produto.php">
+                Novo_produto
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="produtos.php">
+                Produtos
             </a>
         </li>
       </ul>
