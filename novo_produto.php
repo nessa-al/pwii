@@ -35,6 +35,17 @@ if(isset ($_POST["nome"]))
         }
     else{
         //banco
+        include "conexao.php";
+        $nome = $_POST["nome"];
+        $valor =  str_replace("," , ".", $_POST["valor"]);
+        $codigobarras = $_POST["codigobarras"];
+
+        $query = "INSERT into produtos (DESCRICAO, VALOR, CODIGO_BARRAS, ATIVO) 
+                   VALUES ('$nome', $valor , '$codigobarras', 1 ) ";
+                   $resultado = $conexao->query($query);
+                   if($resultado)
+
+       echo "<h1> Salvo no banco com sucesso </h1>";
     }
 
 }
