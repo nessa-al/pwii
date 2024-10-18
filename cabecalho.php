@@ -74,21 +74,19 @@
                sorteio
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="novo_produto.php">
-                Novo_produto
-            </a>
+       
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Menu Produtos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="produtos.php">Produtos</a></li>
+            <li><a class="dropdown-item" href="novo_produto.php">Novo Produto</a></li>
+            <li><a class="dropdown-item" href="editar_produto.php">Editar Produto</a></li>
+            
+          </ul>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="produtos.php">
-                Produtos
-            </a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+     
     </div>
   </div>
 </nav>

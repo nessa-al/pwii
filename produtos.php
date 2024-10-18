@@ -28,7 +28,7 @@ else
 {
     $pesquisa = "";
     include "conexao.php";
-    $sql = "Select Id, Descricao, Valor, Codigo_barras, Imagem from Produtos order by Id desc";
+    $sql = "Select Id, Descricao, Valor, Codigo_barras, Imagem from Produtos order by Id asc";
     $resultado = $conexao->query($sql);
    
     $conexao->close();
@@ -36,6 +36,15 @@ else
 }
 
 
+?>
+<br>
+<?php
+     if(isset($_GET["erro"]) && !empyt($_POST["erro"]))
+     {
+         echo "<div class='alert alert-danger'>";
+         echo $_GET["erro"];
+         echo"</div>";
+     }
 ?>
 <br>
 <div class="row">
