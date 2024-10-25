@@ -38,7 +38,14 @@ $script = "
     ('Secador de Cabelo - 2200W', 199.90, '1234567890141', 1),
     ('Jogo de Lençóis - 150 Fios', 159.90, '1234567890142', 1);
 
-    
+    CREAT TABLE CATEGORIAS (
+        ID INT PRIMARY KEY AUTO_INCREMENT,
+        NOME VARCHAR (80) NOT NULL,
+    );
+    INSERT INTO CATEGORIAS (NOME) 
+    VALUES ('VESTUARIO'), ('CAMA, MESA E BANHO'), ('ELETRODOMESTICOS'), ('MERCEARIA'), ('COSMETICOS'), ('PAPELARIA'),
+
+     
 ";
 
 $conexao = new mysqli($servidor, $usuario, $senha, $banco);

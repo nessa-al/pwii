@@ -82,7 +82,18 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="produtos.php">Produtos</a></li>
             <li><a class="dropdown-item" href="novo_produto.php">Novo Produto</a></li>
-            <li><a class="dropdown-item" href="editar_produto.php">Editar Produto</a></li>
+            
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Menu Categorias
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="categorias.php">Categorias</a></li>
+            <li><a class="dropdown-item" href="nova_categoria.php">Nova Categoria</a></li>
+            
             
           </ul>
         </li>
